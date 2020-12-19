@@ -3,11 +3,11 @@ __________________________
 1. По сути это уже стартовый проект для разработки. <br>
 Бонус это класс для модальных окон, заморозка прокрутки, функция хелпер для проверки элемента при делегировании события и стопер анимации при ресайзе.<br><br>
 Стек:<br>
-1. Gulp + Webpack (js собираем все в один файл, polyfills добавляем из core.js ручками в файл main.js)<br>
-2. SCSS<br>
-3. Html include - fileinclude - https://www.npmjs.com/package/gulp-file-include<br>
-4. Oптимизация картинок<br>
-5. Шрифты просто переносит без обработок<br>
+- Gulp + Webpack (js собираем все в один файл, polyfills добавляем из core.js ручками в файл main.js)<br>
+- SCSS<br>
+- Html include - fileinclude - https://www.npmjs.com/package/gulp-file-include<br>
+- Oптимизация картинок<br>
+- Шрифты просто переносит без обработок<br>
 <br><br>
 Это моя минимальная сборка - https://github.com/Basovich/gulp-simple
 __________________________
