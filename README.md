@@ -12,9 +12,13 @@ html include - fileinclude - https://www.npmjs.com/package/gulp-file-include
 __________________________
 2. Как использовать.
 Внутри этой сборки:
+***
 const modal = new Modal({
+***
     // Срабатывает при открытии модалки
-    isOpen: (modal, attr) => {          
+    ***
+    isOpen: (modal, attr) => {       
+    ***
         console.log(attr); // атрибут окна которое сейчас открылось
         console.log(modal); // обьект модалки
     },
