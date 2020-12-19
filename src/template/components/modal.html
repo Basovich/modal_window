@@ -1,0 +1,22 @@
+<div class="wrapper">
+    <div class="btn-row">
+
+        <button class="btn btn-blue" 
+                type="button" data-open-modal="data-modal-success-send-review">
+                Открыть модалку №1
+        </button>
+
+        <button class="btn btn-blue" 
+                type="button" data-open-modal="data-modal-success-send">
+                Открыть модалку №2
+        </button>
+
+    </div>
+</div>
+
+
+<section class="modal" data-modal-wrap>
+    @@include('./modals/success-send-review.html')
+    <br/>
+    @@include('./modals/success-send.html')
+</section>

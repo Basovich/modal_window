@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Плагин модального окна</title>
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body class="home">
+
+
+
+<div class="wrapper">
+    <div class="btn-row">
+
+        <button class="btn btn-blue" 
+                type="button" data-open-modal="data-modal-success-send-review">
+                Открыть модалку №1
+        </button>
+
+        <button class="btn btn-blue" 
+                type="button" data-open-modal="data-modal-success-send">
+                Открыть модалку №2
+        </button>
+
+    </div>
+</div>
+
+
+<section class="modal" data-modal-wrap>
+    <div class="modal__container" data-modal data-modal-success-send-review>
+    <div class="modal__close" data-close-modal></div>
+    <h3 class="modal__title">Ваше отзыв отправлен!</h3>
+    <p class="modal__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est facilis harum, debitis qui,
+        adipisci nisi laborum voluptates eveniet ut cumque a expedita amet quis libero voluptas. Sit dicta ipsa enim hic
+        inventore quibusdam iure molestias atque incidunt voluptatum molestiae aliquid non nemo sapiente aliquam
+        numquam, magni rem rerum, neque quia dolores blanditiis consequatur! Architecto, facilis voluptates possimus
+        officia hic, ab totam consequuntur optio odit nostrum animi porro error. Distinctio fugit sint voluptatum, quae,
+        tenetur ab nemo sed nisi, ducimus accusantium repellendus dignissimos harum? Quas est quidem enim nesciunt,
+        voluptatibus ipsum unde iure dolorem eveniet aperiam illum non suscipit, doloribus explicabo?</p>
+    <p class="modal__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est facilis harum, debitis qui,
+        adipisci nisi laborum voluptates eveniet ut cumque a expedita amet quis libero voluptas. Sit dicta ipsa enim hic
+        inventore quibusdam iure molestias atque incidunt voluptatum molestiae aliquid non nemo sapiente aliquam
+        numquam, magni rem rerum, neque quia dolores blanditiis consequatur! Architecto, facilis voluptates possimus
+        officia hic, ab totam consequuntur optio odit nostrum animi porro error. Distinctio fugit sint voluptatum, quae,
+        tenetur ab nemo sed nisi, ducimus accusantium repellendus dignissimos harum? Quas est quidem enim nesciunt,
+        voluptatibus ipsum unde iure dolorem eveniet aperiam illum non suscipit, doloribus explicabo?</p>
+    <p class="modal__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est facilis harum, debitis qui,
+        adipisci nisi laborum voluptates eveniet ut cumque a expedita amet quis libero voluptas. Sit dicta ipsa enim hic
+        inventore quibusdam iure molestias atque incidunt voluptatum molestiae aliquid non nemo sapiente aliquam
+        numquam, magni rem rerum, neque quia dolores blanditiis consequatur! Architecto, facilis voluptates possimus
+        officia hic, ab totam consequuntur optio odit nostrum animi porro error. Distinctio fugit sint voluptatum, quae,
+        tenetur ab nemo sed nisi, ducimus accusantium repellendus dignissimos harum? Quas est quidem enim nesciunt,
+        voluptatibus ipsum unde iure dolorem eveniet aperiam illum non suscipit, doloribus explicabo?</p>
+    <p class="modal__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est facilis harum, debitis qui,
+        adipisci nisi laborum voluptates eveniet ut cumque a expedita amet quis libero voluptas. Sit dicta ipsa enim hic
+        inventore quibusdam iure molestias atque incidunt voluptatum molestiae aliquid non nemo sapiente aliquam
+        numquam, magni rem rerum, neque quia dolores blanditiis consequatur! Architecto, facilis voluptates possimus
+        officia hic, ab totam consequuntur optio odit nostrum animi porro error. Distinctio fugit sint voluptatum, quae,
+        tenetur ab nemo sed nisi, ducimus accusantium repellendus dignissimos harum? Quas est quidem enim nesciunt,
+        voluptatibus ipsum unde iure dolorem eveniet aperiam illum non suscipit, doloribus explicabo?</p>
+    <button class="btn btn-blue" data-close-modal>Закрыть</button>
+</div>
+    <br/>
+    <div class="modal__container" data-modal data-modal-success-send>
+    <div class="modal__close" data-close-modal></div>
+    <h3 class="modal__title">Ваше письмо отправлено!</h3>
+    <p class="modal__text">Наши менеджеры с вами свяжуться.</p>
+    <button class="btn btn-blue" data-close-modal>Закрыть</button>
+</div>
+</section>
+
+<script src="js/main.min.js"></script>
+</body>
+</html>
+

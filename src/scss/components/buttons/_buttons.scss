@@ -1,0 +1,28 @@
+.btn-row {
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    & + & {
+        margin-left: 20px;
+    }
+
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+    &-blue {
+        background-color: $blue;
+        border: none;
+        color: white;
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 0 0 2pt rgba($blue, .6);
+        }        
+    }
+
+}
