@@ -12,8 +12,7 @@ html include - fileinclude - https://www.npmjs.com/package/gulp-file-include
 __________________________
 2. Как использовать.
 Внутри этой сборки:
-<pre>sdfsdf</pre>
-***
+<pre>
     const modal = new Modal({
         // Срабатывает при открытии модалки 
         isOpen: (modal, attr) => {       
@@ -24,7 +23,8 @@ __________________________
         isClose: (modal) => { 
             console.log(modal); // обьект модалки
         }
-    })  
+    }) 
+</pre>
     
 Если надо выдернуть этот класс в другую сбоку, то надо учесть, что этот класс имеет зависимость от двух файлов /assets/libs/scroll_locker.js и /helper-function/get-target.js. 
 Первый обеспечивает заморозку прокрутки, а второй это воспомогательная функция для проверки элемента при делегирования события.
